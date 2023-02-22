@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap');
+
+@layer{
+  html{
+    font-family: 'Signika', sans-serif;
+  }
+}
+
+
+
 /* Active Navigation Link */
 .active {
   @apply text-cyan-500;
