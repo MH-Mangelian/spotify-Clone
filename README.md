@@ -1,2 +1,2 @@
 # spotify-Clone
-Spotify Clone  with React JS ,Redux , Rapid API and tailwindcss
+Spotify Clone  with React JS , Developer.SpotifyAPI and Tailwindcss
