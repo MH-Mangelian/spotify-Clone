@@ -6,9 +6,8 @@ const code = new URLSearchParams(window.location.search).get('code');
 
 function App() {
   return (
-    <div className='container'>
-      {/* {code ? <Dashboard code={code}/> : <Login/>} */}
-      <Dashboard />
+    <div className='container min-h-full min-w-full'>
+      {code ? <Dashboard code={code}/> : <Login/>}
     </div>
   );
 }
